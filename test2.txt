@@ -1,0 +1,13 @@
+algo 10-20
+variable n : entier 
+debut
+ ecrire ("ecrire un nombre entre 10 et 20")
+tantque n < 10 ou n > 20
+lire (n)
+ si n < 10 alors
+ ecrire ("plus grand")  
+ sinonsi n > 20 alors
+ ecrire ("plus petit")
+ finsi 
+fintantque
+fin
